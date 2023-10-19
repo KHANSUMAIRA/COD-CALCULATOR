@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <========== BOX ICONS ==========-->
+    <!-- <!-- <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body> -->
+    
+  <!--========== SCROLL TOP ==========-->
+  <a href="#" class="scrolltop" id="scroll-top">
+    <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+</a>
+
+    <!-- =======Header=====  -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar ">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header> -->
+
+    <!-- ======Home Section=====  -->
+        <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Sumaira Faiz Fareed</h1>
+            <p>I have done my graduction
+                </p>
+             <div class="social-media">
+                <a href="https://www.linkedin.com/in/sumaira-khan-60898b266/"><i
+                        class='bx bxl-linkedin-square'></i></i></a>
+
+            </div>
+            <a href="Sumaira faiz fareed.pdf" download="Sumaira's_Resume.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1">
+                    <i class="bx bx-palette"></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:2">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Social Media Post</h3>
+                </div>
+               
+              </div>
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="profile.jpg" alt="">
+        </div>
+    </section>
+</header>
+
+<!-- ======Home Section=====  -->
+<section class="home" id="home">
+  
+
+    <div class="profession-container">
+        <div class="profession-box">
+            <div class="profession" style="--i:0">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Developer</h3>
+            </div>
+            <div class="profession" style="--i:1">
+                <i class="bx bx-palette"></i>
+                <h3>Web Designer</h3>
+            </div>
+            <div class="profession" style="--i:2">
+                <i class="bx bx-code-alt"></i>
+                <h3>Social Media Post</h3>
+            </div>
+            <div class="profession" style="--i:3">
+                <i class="bx bx-code-alt"></i>
+                <h3>Video Editor</h3>
+            </div>
+            <div class="circle"></div>
+        </div>
+        <div class="overlay"></div>
+    </div>
+    <div class="home-img">
+        <img src="https://img.freepik.com/premium-photo/girl-white-shirt-holding-laptop-black-background_102583-1493.jpg" alt="">
+    </div>
+</section>
+
+    <!-- about section design  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="data:image/jpeg;base64,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" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>I make website</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis voluptatum eius illo aliquid minima
+                ab. Voluptates possimus explicabo vero? Nobis.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design  -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+          
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <img src="front.jpg" alt="">
+                <h3>Front End</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora explicabo possimus repudiandae?
+                    Minus ea velit voluptates totam omnis! Excepturi, nulla.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <img src="back.jpg" alt="">
+                <h3>Back End</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora explicabo possimus repudiandae?
+                    Minus ea velit voluptates totam omnis! Excepturi, nulla.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section  -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="IMG_20231018_211724.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>HTML & CSS Project</h4>
+                    <p>I make a website through HTML & CSS which is also responsive. This website is live and it contain Header, Home & Footer Section</p>
+                <a href="#" class="btn"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="to do.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4> To DO aPP</h4>
+                    <p>I make a To do app</p>
+                <a href="#" class="btn"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+           
+            </div>
+            <div class="portfolio-box"><img src="" alt="">
+                <div class="portfolio-layer">M
+                    <h4>MERN Stack Project</h4>
+                    <p>I make a MERN Stack project in which you can order any products and also get the mail about your order & If you login as admin you go the admin page. </p>
+            
+                <a href="#" class="btn"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            
+            
+            <div class="portfolio-box">
+                <img src="calculator.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Calculator</h4>
+                    <p>I make a To Calculator which work very well and perform every operation. </p>
+                <a href="#" class="btn"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design  -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Enter Your Name">
+                <input type="email" placeholder="Enter your email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Enter Your mobile Number">
+                <input type="text" placeholder="Email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+            <!--========== FOOTER ==========-->
+         <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by Sumaira Faiz Fareed | All Right Reserved</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home" ><i class="bx bx-up-arrow-alt"></i></a>
+            </div>
+         </footer>
+
+         
+    <script src="./main.js"></script>
+
+  
+    <script>
+
+        window.onload = function() {
+  ScrollReveal({
+    reset: true,
+          distance: '80px',
+          duration: 2000,
+          delay: 200
+  });
+    
+  ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+  ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
+  ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
+  ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { origin: 'right' });
+
+};
+    </script>
+    </body>
+
+</html>
+
+    
+
+  
+
+
+
+</html> 
